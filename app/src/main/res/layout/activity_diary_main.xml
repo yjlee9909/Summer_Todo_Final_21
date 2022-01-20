@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/e">
+
+    <!--리스트 추가-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_corners"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_navigation"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:fontFamily="@font/bmhannaair"
+        android:id="@+id/edtName"
+        android:layout_width="363dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:backgroundTint="#C1AC95"
+        android:hint="제목을 입력해주세요."
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:inputType="textMultiLine"
+        android:scrollHorizontally="false"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <EditText
+        android:id="@+id/edtPrice"
+        android:layout_width="349dp"
+        android:layout_height="188dp"
+        android:layout_below="@+id/edtName"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="내용을 입력해주세요"
+        android:fontFamily="@font/bmhannaair"
+        android:backgroundTint="#C1AC95"
+
+        android:maxLines="100"
+        android:inputType="textMultiLine"
+        android:scrollHorizontally="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChoose" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="309dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtName"
+        app:srcCompat="@drawable/ic_baseline_add_photo_alternate_24" />
+
+    <Button
+        android:fontFamily="@font/bmhannaair"
+        android:id="@+id/btnChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toRightOf="@+id/imageView"
+        android:background="@drawable/round_sign"
+        android:text="사진 고르기"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:textColor="@color/black"
+        android:background="@drawable/round_sign"
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="15dp"
+        android:text="기록 추가하기"
+        android:fontFamily="@font/bmhannaair"
+        app:layout_constraintEnd_toStartOf="@+id/btnList"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPrice" />
+
+    <Button
+        android:background="@drawable/round_sign"
+        android:fontFamily="@font/bmhannaair"
+        android:textColor="@color/black"
+        android:id="@+id/btnList"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignLeft="@+id/btnAdd"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="32dp"
+        android:text="지난 기록 보기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPrice" />
+</androidx.constraintlayout.widget.ConstraintLayout>

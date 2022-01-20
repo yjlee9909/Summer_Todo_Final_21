@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1015298458204",
+    "firebase_url": "https://my-application-a095b-default-rtdb.firebaseio.com",
+    "project_id": "my-application-a095b",
+    "storage_bucket": "my-application-a095b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015298458204:android:3f1bcfc8fa2c9ef6589c99",
+        "android_client_info": {
+          "package_name": "com.example.calendarviewlib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015298458204-mipv5u2otmgvmdqvh1cr0jbk3le3qnbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUUwzHkzb16NKZBcZTUiTE3ri1Bl1_Sis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015298458204-mipv5u2otmgvmdqvh1cr0jbk3le3qnbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

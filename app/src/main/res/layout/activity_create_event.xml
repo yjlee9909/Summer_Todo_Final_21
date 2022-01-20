@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:descendantFocusability="beforeDescendants"
-    android:focusableInTouchMode="true">
+    android:fontFamily="@font/bmhannaair"
+    android:focusableInTouchMode="true"
+    android:background="@color/e">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,11 +37,17 @@
                 android:background="?attr/colorPrimary">
 
                 <TextView
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/bmhannaair"
                     style="@style/createEventToolbarItems"
+                    android:background="@color/b"
                     android:id="@+id/tv_cancel"
                     android:text="@string/cancel" />
 
                 <TextView
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/bmhannaair"
+                    android:background="@color/b"
                     style="@style/createEventToolbarItems"
                     android:id="@+id/tv_save"
                     android:text="@string/save" />
@@ -84,6 +92,7 @@
                         android:paddingEnd="4dp">
 
                         <EditText
+                            android:fontFamily="@font/bmhannaair"
                             android:id="@+id/et_event_title"
                             android:layout_width="0dp"
                             android:layout_weight="1"
@@ -132,6 +141,7 @@
                         android:paddingEnd="4dp">
 
                         <TextView
+                            android:fontFamily="@font/bmhannaair"
                             android:id="@+id/tv_completed"
                             android:layout_width="0dp"
                             android:layout_weight="1"
@@ -166,6 +176,7 @@
                         android:src="@drawable/ic_clock"/>
 
                     <TextView
+                        android:fontFamily="@font/bmhannaair"
                         android:id="@+id/tv_date"
                         style="@style/createEventItemTextView"
                         android:layout_width="match_parent"

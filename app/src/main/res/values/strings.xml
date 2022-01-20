@@ -1,18 +1,75 @@
 <resources>
-    <string name="app_name" translatable="false">CalendarView Sample</string>
-    <string name="title_activity_simple_calendar_view" translatable="false">Simple CalendarView</string>
-    <string name="title_activity_mini_calendar_view_popup" translatable="false">CalendarView Popup</string>
+    <string name="app_name" translatable="false">Task Manager</string>
+    <string name="title_activity_simple_calendar_view" translatable="false">Task Manager</string>
+    <string name="title_activity_mini_calendar_view_popup" translatable="false">Task Manager</string>
     <string name="today">today</string>
-    <string name="cancel">cancel</string>
-    <string name="ok">ok</string>
-    <string name="new_event">New Event</string>
-    <string name="save">save</string>
-    <string name="title">Title</string>
-    <string name="completed">Completed</string>
-    <string name="set">set</string>
+    <string name="cancel">취소</string>
+    <string name="ok">확인</string>
+    <string name="new_event">일정</string>
+    <string name="save">저장</string>
+    <string name="title">제목</string>
+    <string name="completed">완료</string>
+    <string name="set">설정</string>
     <string name="double_dots" translatable="false">:</string>
-    <string name="select_color_instruction">Select color of event</string>
+    <string name="select_color_instruction">색상 선택</string>
     <string name="event_default_title">My event</string>
     <string name="no_events">no events</string>
     <string name="delete">delete</string>
+
+    <!-- Edit Alarm Activity/Fragment -->
+    <string name="time">시간</string>
+    <string name="label">내용</string>
+    <string name="days">요일</string>
+    <string name="edit_alarm">알람 수정하기</string>
+    <string name="add_alarm">알람 추가하기</string>
+    <string name="add_label_hint">내용을 추가하세요!</string>
+    <string name="update_complete">등록되었습니다.</string>
+    <string name="update_failed">등록에 실패하였습니다.</string>
+    <string name="delete_complete">알람이 삭제되었습니다.</string>
+    <string name="delete_failed">삭제에 실패하였습니다.</string>
+    <string name="delete_dialog_title">삭제하기</string>
+    <string name="delete_dialog_content">정말로 삭제하시겠습니까?</string>
+    <string name="yes">네</string>
+    <string name="no">아니요</string>
+
+    <!-- Edit Alarm Menu -->
+    <string name="empty_view_text">Press the Floating Action Button to add an alarm!</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Alarm Landing Page Activity/Fragment -->
+    <string name="launch_main_activity">Launch Main Activity</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Days -->
+    <string name="monday">월요일</string>
+    <string name="tuesday">화요일</string>
+    <string name="wednesday">수요일</string>
+    <string name="thursday">목요일</string>
+    <string name="friday">금요일</string>
+    <string name="saturday">토요일</string>
+    <string name="sunday">일요일</string>
+
+    <!-- Notification -->
+    <string name="channel_name">Simple Alarms</string>
+
+    <!--Community-->
+
+    <string name="sign_up">회원가입</string>
+    <string name="enter_email">이메일을 입력하세요.</string>
+    <string name="enter_pass">비밀번호를 입력하세요.</string>
+    <string name="already_registered">로그인하기</string>
+    <string name="sign_in">로그인</string>
+    <string name="not_registered">회원가입</string>
+    <string name="profile">내 프로필</string>
+    <string name="sign_out">로그아웃</string>
+    <string name="username">이름을 입력하세요.</string>
+    <!--<string name="save">Save</string>-->
+    <string name="add_post">글 올리기</string>
+    <string name="enter_caption">여기에 내용을 입력하세요.</string>
+    <string name="add_comment">작성하기</string>
+    <string name="write_Comment">댓글을 작성하세요</string>
+
+
 </resources>

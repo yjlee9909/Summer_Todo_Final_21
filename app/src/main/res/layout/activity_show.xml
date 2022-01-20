@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/e">
+
+    <!--조회창-->
+
+
+    <ImageView
+        android:id="@+id/show_image"
+        android:layout_width="305dp"
+        android:layout_height="181dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/show_title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:text="제목"
+        android:fontFamily="@font/bmhannaair"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <TextView
+        android:id="@+id/show_content"
+        android:layout_width="315dp"
+        android:layout_height="244dp"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:singleLine="true"
+        android:text="내용"
+        android:textSize="18dp"
+        android:fontFamily="@font/bmhannaair"
+        android:textColor="#000000"
+        android:inputType="textMultiLine"
+        android:scrollHorizontally="false"
+        app:layout_constraintEnd_toEndOf="@+id/show_title"
+        app:layout_constraintStart_toStartOf="@+id/show_title"
+        app:layout_constraintTop_toBottomOf="@+id/show_title" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_sign"
+        android:textColor="@color/black"
+        android:text="돌아가기"
+        android:fontFamily="@font/bmhannaair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="날짜"
+        android:fontFamily="@font/bmhannaair"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_image" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

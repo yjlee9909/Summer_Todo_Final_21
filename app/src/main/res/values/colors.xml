@@ -8,10 +8,27 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-        <color name="colorPrimary">#3F51B5</color>
-        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorPrimary">#BDBDBD</color>
+        <color name="colorPrimaryDark">#BDBDBD</color>
         <color name="colorAccent">#FF4081</color>
 
         <color name="background">#4f000000</color>
-    </resources>
+    <color name="primary">#00BCD4</color>
+    <color name="primary_dark">#0097A7</color>
+    <color name="primary_light">#B2EBF2</color>
+    <color name="accent">#FF4081</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="dark_blue">#152C4E</color>
+    <color name="orange">#F67D48</color>
+
+    <color name="a">#FAEBE0</color>
+    <color name="b">#C9E4C5</color>
+    <color name="c">#B5CDA3</color>
+    <color name="d">#C1AC95</color>
+    <color name="e">#FFF8F7</color>
+
+</resources>
 

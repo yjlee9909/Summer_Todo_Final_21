@@ -7,6 +7,7 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:fontFamily="@font/bmhannaair"
         android:id="@+id/tv_month"
         android:layout_width="match_parent"
         android:layout_height="48dp"

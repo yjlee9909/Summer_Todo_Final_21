@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/landing_page_fragment_container"
+    android:name="com.example.myapplication.AlarmUi.AlarmLandingPageFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/e">
+
+
+
+</fragment>

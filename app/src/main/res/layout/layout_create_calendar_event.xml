@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#66000000"
+    android:background="@color/e"
     android:id="@+id/create_event_outer_container">
 
     <View

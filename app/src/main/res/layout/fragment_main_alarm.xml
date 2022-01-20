@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/e"
+   >
+
+    <com.example.myapplication.view.EmptyRecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:fontFamily="@font/bmhannaair"
+        android:text="알람을 추가해주세요!" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="#C1AC95"
+        app:fabSize="auto"
+        app:srcCompat="@drawable/ic_alarm_white"
+        android:backgroundTint="#C1AC95"
+        tools:ignore="ContentDescription,MissingConstraints"
+
+        android:layout_gravity="bottom|right"
+
+
+        android:layout_marginLeft="@dimen/fab1_margin_left"
+
+
+
+        android:layout_marginRight="@dimen/fab1_margin_right"
+        android:layout_marginBottom="@dimen/fab1_margin_bottom"/>
+
+
+</RelativeLayout>

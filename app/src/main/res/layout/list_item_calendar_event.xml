@@ -12,6 +12,7 @@
     android:paddingEnd="24dp"
     android:clickable="true"
     android:focusable="true"
+
     android:background="?android:attr/selectableItemBackground">
 
     <View
@@ -33,6 +34,7 @@
         android:gravity="center_vertical">
 
         <TextView
+            android:fontFamily="@font/bmhannaair"
             android:id="@+id/tv_calendar_event_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,6 +45,7 @@
             tools:text="Exercise Plan" />
 
         <TextView
+            android:fontFamily="@font/bmhannaair"
             android:id="@+id/tv_calendar_event_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -5,7 +5,9 @@
     android:paddingTop="6dp"
     android:paddingEnd="6dp"
     android:paddingStart="6dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/e">
 
     <androidx.cardview.widget.CardView
         android:layout_gravity="center"
@@ -23,6 +25,7 @@
             android:background="?selectableItemBackground">
 
             <TextView
+                android:fontFamily="@font/bmhannaair"
                 android:id="@+id/tv_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -32,6 +35,7 @@
                 />
 
             <TextView
+                android:fontFamily="@font/bmhannaair"
                 android:id="@+id/tv_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

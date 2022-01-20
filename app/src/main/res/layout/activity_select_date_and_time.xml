@@ -2,7 +2,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/c">
 
     <LinearLayout
         android:gravity="bottom"
@@ -21,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#fff"
+            android:background="@color/e"
             android:clickable="true"
             android:focusable="true"
             android:padding="16dp">
@@ -32,10 +33,12 @@
                 android:layout_height="wrap_content"
                 app:current_day_circle_enable="true"
                 app:current_day_circle_color="?attr/colorPrimary"
-                app:month_header_arrows_color="?attr/colorPrimary"
-                app:month_header_text_color="?attr/colorPrimary"
+                app:month_header_arrows_color="@color/black"
+                app:month_header_text_color="@color/black"
+
+                app:day_text_color="@color/black"
                 app:selected_day_border_color="#00000000"
-                app:week_header_text_color="?attr/colorPrimary"
+                app:week_header_text_color="@color/black"
                 app:week_header_background_color="#00000000"
                 app:week_header_movable="false"/>
 
@@ -59,7 +62,7 @@
                     android:layout_height="wrap_content"
                     app:np_wrapSelectorWheel="true"
                     app:np_textSize="28sp"
-                    app:np_textColor="@color/colorPrimary"
+                    app:np_textColor="@color/dark_blue"
                     app:np_typeface="sans-serif-light"
                     app:np_selectedTextSize="32sp"
                     app:np_selectedTextColor="?attr/colorPrimary"
@@ -85,7 +88,7 @@
                     android:layout_height="wrap_content"
                     app:np_wrapSelectorWheel="true"
                     app:np_textSize="28sp"
-                    app:np_textColor="@color/colorPrimary"
+                    app:np_textColor="@color/dark_blue"
                     app:np_typeface="sans-serif-light"
                     app:np_selectedTextSize="32sp"
                     app:np_selectedTextColor="?attr/colorPrimary"
@@ -118,7 +121,7 @@
                     android:layout_height="wrap_content"
                     android:padding="2dp"
                     android:text="@string/cancel"
-                    android:textColor="?attr/colorPrimary"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:textAllCaps="true"/>
 
@@ -132,7 +135,7 @@
                     android:layout_height="wrap_content"
                     android:padding="2dp"
                     android:text="@string/set"
-                    android:textColor="?attr/colorPrimary"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:textAllCaps="true"/>
             </LinearLayout>
